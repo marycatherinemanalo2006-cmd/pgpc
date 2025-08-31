@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PGPC HOME</title>
+
+    <style>
+        body{
+            background-color: #0d1321;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff8f8;
+        }
+
+        header{
+            border: 5px solid #111a2e;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        #nav_box{
+            border: 5px solid #111a2e;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px ;
+        }
+
+        .nav{
+            padding-left: 5px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .nav a{
+            text-decoration: none;
+            color: white;
+            background-color: #1a2236;
+            padding: 10px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .nav a:hover, .nav a:focus{
+            background-color: #4da6ff;
+            color: #0d1321;
+        }
+
+        main{
+            border: 5px solid #111a2e;
+            border-radius: 5px;
+            margin-top: 10px;
+            padding: 5px;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+        }
+
+        .border{
+            border: 5px solid #111a2e;
+            border-radius: 5px;
+            margin: 3px;
+            padding: 10px;
+        }
+
+        .pic img{
+            margin: 0 auto;
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-top: 5px;
+        }
+
+        .highlight{
+            color: #43578a;
+            font-size: small;
+        }
+
+        .pic a{
+        color:#ffff;
+        background-color: #1a2236;
+        padding: 10px;
+        font-weight: bold;
+        border-radius: 5px;
+        text-decoration: none;
+       }
+
+        a:hover, a:focus{
+        background-color: #4da6ff;
+        color: #0d1321;
+       }
+
+       .parent{
+        display: flex;
+        flex:1;
+        
+        justify-content: center;
+        
+       }
+
+       h2{
+        padding:5px;
+
+       }
+
+       .card{
+        display: flex;
+        flex:1; 
+        flex-direction: column;
+        border: 3px solid #1a2236 ;
+        border-radius: 5px;
+        margin: 5px;
+        
+       }
+
+       .card img{
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 15px;
+       }
+
+       .card .btn{
+        border: 1px solid #1a2236;
+        padding: 10px 15px;
+        text-decoration: none;
+        color: white;
+        border-radius: 5px;
+        text-align: center;
+        margin: 10px;
+       }
+
+
+       .card .btn:hover{
+        background-color: #4da6ff;
+        color: #0d1321;
+       }
+
+       .card p{
+        color: #43578a;
+        padding: 5px;
+       }
+
+       .card h3{
+        margin-top: 10px;
+        padding: 5px;
+        }
+
+        footer{
+        margin-top: 15px;
+        padding-top: 15px;
+        text-align: center;
+        color:#43578a;
+        border-top: dashed #111a2e;
+        }
+
+       aside{
+        margin: 3px;
+        border:5px solid #111a2e;
+        border-radius: 5px;
+        padding: 5px;
+       }
+
+       aside h2{
+        margin: 15px;
+       }
+
+       aside ul{
+        color: white;
+       }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PGPC Chronicles</h1>
+        <p>An official communication channel of PGPC</p>
+    </header>
+
+    <div id="nav_box">
+        <nav class="nav">
+            <a href="https://web.facebook.com/PadreGarciaPolytechnicCollege">Home</a>
+            <a href="#">News</a>
+            <a href="#">Events</a>
+            <a href="#">Departments</a>
+            <a href="#">About</a>
+        </nav>
+    </div>
+
+    <main>
+        <article>
+          <div class="border">
+            <h2>Orientation Schedule Released</h2>
+            <p>Published August 19, 2025. by <a href="#">Admin</a></p>
+          </div>
+          
+          <div class="pic">
+            <img src="pic1.jpg" alt=" main auditorium">
+          
+            <p class="highlight">Welcome activites kick off at the main auditorium.</p>
+            <p>
+                The Padre Garcia Polytechnic College shall primarily provide advanced education, higher technological, 
+                and professional instruction and training in the areas of science, arts, education, business, engineering, 
+                computing, health, governance, criminal justice, social services, and provide progressive leadership in 
+                its areas of specialization. 
+            </p>
+            <a href="#">View Program</a>
+        </div>
+        
+        <h2>PGPC VISION, MISSION, CORE VALUES</h2>
+            <div class="parent">
+                
+                <div class="card">
+                    <img src="pic1.jpg" alt="vision">
+                    <h3>The Vision of Padre Garcia Polytechnic College(PGPC) shall be:</h3>
+                    <p>
+                        PGPC is a premier higher learning institution producing globally 
+                        competitive and excellent professionals and leaders instrumental 
+                        to community development and nation-building. 
+                    </p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="card">
+                    <img src="pic1.jpg" alt="vision">
+                    <h3>The Mission of Padre Garcia Polytechnic College(PGPC) shall be:</h3>
+                    <p>
+                        As a higher learning institution, PGPC is committed to produce 
+                       globally competent professionals and leaders with industry- based 
+                       knowledge, skills, and values that will enable them achieve their 
+                       professional growth and total human development.
+                    </p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="card">
+                    <img src="pic1.jpg" alt="vision">
+                    <h3>The PGPC Core Values:</h3>
+                    <p>
+                        P - Professional development<br>
+                        G - God-Centered Community<br>
+                        P - Progessive Community<br>
+                        C - Commitment to Excellence
+                    </p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+        </article>
+
+        <aside>
+            <h2>Resources</h2>
+            <ul>
+                <li><a href="#">Campus Map</a></li>
+                <li><a href="#">Accessibility Services</a></li>
+                <li><a href="#">Student Handbook</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; Campus Chronicle *</p>
+        <i>Brgy. Castillo, Padre Garcia, Batangas</i>
+    </footer>
+
+</body>
+</html>
